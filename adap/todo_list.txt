@@ -1,0 +1,5 @@
+1.Добавить адаптивную надпись "Welcome to our studio!" Arial 40 		Done!
+2.Добавить адаптивную надпись "It's nice to meet you" Arial 75 Bold		Done!
+3.Добавить адаптивную кнопку "Tell me more"								Done!
+4.Залить проект на сервер
+5.Тест
