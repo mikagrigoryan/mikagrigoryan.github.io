@@ -118,3 +118,53 @@ a{
 	margin-left:50%;
 	transform: translateX(-60%);
 }
+#services{
+	position: absolute;
+	margin-top:60%;
+	text-transform: uppercase;
+	font-family: "Arial";
+	font-size:40px;
+	font-weight: 700;
+	margin-left:50%;
+	transform: translateX(-65%);
+}
+@media screen and (max-width: 1102px){
+	#services{
+		font-size:36px;
+	}
+}
+@media screen and (max-width: 727px){
+	#services{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 500px){
+	#services{
+		font-size: 20px;
+	}
+}
+#text{
+	position: absolute;
+	margin-top:64.5%;
+	font-family: "Arial";
+	font-size:16px;
+	font-weight: 400;
+	color:#777777;
+	margin-left:50%;
+	transform: translateX(-61%);
+}
+@media screen and (max-width: 1102px){
+	#text{
+		font-size:14px;
+	}
+}
+@media screen and (max-width: 727px){
+	#text{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 500px){
+	#text{
+		font-size: 10px;
+	}
+}
