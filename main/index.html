@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second Template</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  	<script>
+    	AOS.init();
+  	</script>
+	<div class="content">
+		<header>
+			<div class="nav">
+				<ul>
+					<li data-aos="fade-right" data-aos-duration="1000"><a onclick="document.getElementById('home').scrollIntoView()" data-text="Home">Home</a></li>
+					<li data-aos="fade-left" data-aos-duration="1000"><a onclick="document.getElementById('about').scrollIntoView()" data-text="About Us">About Us</a></li>
+					<li data-aos="fade-right" data-aos-duration="1000"><a onclick="document.getElementById('services').scrollIntoView()" data-text="Services">Services</a></li>
+					<li data-aos="fade-left" data-aos-duration="1000"><a onclick="document.getElementById('contacts').scrollIntoView()" data-text="Contacts">Contacts</a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="home">
+			<div class="title">
+				<span data-aos="fade-up">Home</span>
+			</div>
+			<div class="cards">
+				<section>
+					<h3>Card One</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</section>
+				<section>
+					<h3>Card Two</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</section>
+				<section>
+					<h3>Card Three</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</section>
+			</div>
+		</div>
+	<div id="about">
+		<div class="title">
+			<span style="color:white" data-aos="fade-in" data-aos-duration="1500">About</span>
+		</div>
+			<div class="carousel">
+				<div class="carousel-item">
+					<img src="img/img1.jpg" />
+				</div>
+				<div class="carousel-item">
+					<img src="img/img2.jpg" />
+				</div>
+				<div class="carousel-item">
+					<img src="img/img3.jpg" />
+				</div>
+				<div class="carousel-item">
+					<img src="img/img4.jpg" />
+				</div>
+				<div class="carousel-item">
+					<img src="img/img5.jpg" />
+				</div>
+			<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+				    $('.carousel').carousel();
+				  });
+			</script>
+		</div>
+			<span id="swipe">Swipe!</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat vulputate nunc, vel luctus ipsum dictum auctor. In imperdiet mauris metus, at fermentum eros egestas in. Integer vitae sem enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam lorem mi, aliquet eget pharetra sit amet, lobortis eu velit. Nullam condimentum, risus et vestibulum dapibus, sapien erat rutrum erat, et porttitor sem elit eu mauris. Praesent vel posuere nibh. Suspendisse potenti. Aenean ornare eleifend sapien, a vulputate libero congue eget. Integer pharetra, mi at interdum pulvinar, elit nibh faucibus dolor, at sollicitudin felis dolor eget neque. Duis vel viverra velit. Sed pulvinar risus nec finibus mattis. Sed ornare elit nisi, a sollicitudin metus blandit semper.</p>
+	</div>
+</div>
+	<div id="services">
+		<div class="title">
+			<span data-aos="fade-up">Services</span>
+		</div>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide" style="background-image:url(./img/nature-1.jpg)"></div>
+		      <div class="swiper-slide" style="background-image:url(./img/nature-2.jpg)"></div>
+		      <div class="swiper-slide" style="background-image:url(./img/nature-3.jpg)"></div>
+		      <div class="swiper-slide" style="background-image:url(./img/nature-4.jpg)"></div>
+		      <div class="swiper-slide" style="background-image:url(./img/nature-5.jpg)"></div>
+		    </div>
+    <!-- Add Pagination -->
+    		<div class="swiper-pagination"></div>
+  		</div>
+  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<script>
+		    var swiper = new Swiper('.swiper-container', {
+		      effect: 'cube',
+		      grabCursor: true,
+		      cubeEffect: {
+		        shadow: true,
+		        slideShadows: true,
+		        shadowOffset: 20,
+		        shadowScale: 0.94,
+		      },
+		      pagination: {
+		        el: '.swiper-pagination',
+		      },
+		    });
+  		</script>
+	</div>
+	<div id="contacts">
+		<span class="title" style="color:white;">Contact Us!</span>
+		<div class="contact">
+			<input type="text" id="name" placeholder="Name" />
+			<input type="text" id="surname" placeholder="Surname" />
+			<input type="text" id="email" placeholder="Email" />
+			<textarea placeholder="Your Review" style="resize:none;" id="review"></textarea>
+			<input type="submit" value="Submit!"/>
+		</div>
+	</div>
+	<div id="copyrights">
+		<p><b>Your Copyrights here</b> Migi company's website template.</p>
+	</div>
+</body>
+</html>
