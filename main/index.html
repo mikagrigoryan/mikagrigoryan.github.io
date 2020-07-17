@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Second Template</title>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
@@ -10,15 +12,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<script src="https://use.fontawesome.com/3767c4b4c8.js"></script>
 </head>
 <body>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   	<script>
     	AOS.init();
-  	</script>
+	  </script>
 	<div class="content">
 		<header>
+			<div class="intro"></div>
 			<div class="nav">
 				<ul>
 					<li data-aos="fade-right" data-aos-duration="1000"><a onclick="document.getElementById('home').scrollIntoView()" data-text="Home">Home</a></li>
@@ -126,13 +130,14 @@
   		</script>
 	</div>
 	<div id="contacts">
-		<span class="title" style="color:white;">Contact Us!</span>
-		<div class="contact">
-			<input type="text" id="name" placeholder="Name" />
-			<input type="text" id="surname" placeholder="Surname" />
-			<input type="text" id="email" placeholder="Email" />
-			<textarea placeholder="Your Review" style="resize:none;" id="review"></textarea>
-			<input type="submit" value="Submit!"/>
+		<span class="title" style="color:white;">Contacts</span>
+		<div class="box">
+			<a href="#">Facebook</a>
+			<a href="#">Twitter</a>
+			<a href="#">GitHub</a>
+		</div>
+		<div class="logo">
+			<img src="img/logo.jpg"/>
 		</div>
 	</div>
 	<div id="copyrights">
