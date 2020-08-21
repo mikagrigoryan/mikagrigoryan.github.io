@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile version of web-template</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+</head>
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    	AOS.init();
+	  </script>
+    <header>
+            <a id="home-txt" onclick="document.getElementById('home').scrollIntoView()">Home</a>
+            <a id="about-txt" onclick="document.getElementById('about').scrollIntoView()">About</a>
+            <a id="service-txt" onclick="document.getElementById('services').scrollIntoView()">Service</a>
+            <a id="contacts-txt" onclick="document.getElementById('contacts').scrollIntoView()">Contacts</a>
+    </header>
+    <div id="intro">
+    </div>
+    <div id="home">
+        <ul>
+            <li data-aos="fade-up"><span class="title">Home</span></li>
+        </ul>
+        <div id="cardsq">
+            <div class="cardq">
+                <h3>Card One</h3> <br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="cardq">
+                <h3>Card Two</h3> <br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="cardq">
+                <h3>Card Three</h3> <br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <li data-aos="flip-up"><span class="title">About</span></li>
+        <div id="space"></div>
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+            <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+            <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+            <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+        </div>
+        <span class="swipe">Swipe!</span>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.carousel').carousel();
+              });
+        </script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+    </div>
+    <div id="services">
+        <li data-aos="zoom-in"><span class="title">Services</span></li>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <div class="swiper-container">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide" style="background-image:url(./img/nature-1.jpg)"></div>
+		      <div class="swiper-slide" style="background-image:url(./img/nature-2.jpg)"></div>
+		      <div class="swiper-slide" style="background-image:url(./img/nature-3.jpg)"></div>
+		      <div class="swiper-slide" style="background-image:url(./img/nature-4.jpg)"></div>
+		      <div class="swiper-slide" style="background-image:url(./img/nature-5.jpg)"></div>
+		    </div>
+    <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          </div>
+          <br/><br/><br/><br/>
+          <span class="swipe" id="services-swipe">Swipe!</span>
+          <p id="swiper-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat varius congue. Etiam a pulvinar enim, tempus euismod arcu. Nunc tristique velit gravida hendrerit blandit. Nam maximus porttitor convallis. Nunc vitae lacus vestibulum, tempus sapien ac, porttitor nibh. Aliquam fermentum neque sed condimentum dapibus. Integer facilisis tellus lacus, nec ullamcorper tortor tempus non. Nulla molestie odio aliquet diam varius, vitae semper nulla eleifend. Cras nunc nisl, congue et sem ut, pretium gravida risus. Ut sagittis arcu ut tortor viverra euismod. Vivamus placerat turpis arcu, maximus tincidunt nunc gravida a. Sed nunc dui, gravida dictum iaculis in, luctus eleifend est. Sed diam sem, dapibus quis aliquam quis, hendrerit viverra nibh. Integer congue elit sed leo aliquet, eget luctus turpis iaculis.</p>
+        <script>
+		    var swiper = new Swiper('.swiper-container', {
+		      effect: 'cube',
+		      grabCursor: true,
+		      cubeEffect: {
+		        shadow: true,
+		        slideShadows: true,
+		        shadowOffset: 20,
+		        shadowScale: 0.94,
+                observer: true, 
+                observeParents: true
+		      },
+		      pagination: {
+		        el: '.swiper-pagination',
+		      },
+		    });
+          </script>
+          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    </div>
+    <div id="contacts">
+        <li data-aos="zoom-out"><span class="title" style="color:white;">Contacts</span></li>
+        <div class="box-wrapper">
+            <br/><br/><br/><br/><br/><br/>
+            <div class="box">
+                    <a href="https://www.facebook.com/groups/officialmigi/" target="_blank">Facebook</a>
+                    <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    <a href="https://www.github.com" target="_blank">Github</a>
+            </div>
+        </div>
+    </div>
+    <div id="copyrights">
+        ©<b>MiGi</b> company's <i>web-template</i>.
+    </div>
+</body>
+</html>
